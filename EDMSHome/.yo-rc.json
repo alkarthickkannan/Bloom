@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.5.1",
+    "libraryName": "edms-project-home",
+    "libraryId": "428ee477-9171-4e67-93f3-fb22e724685a",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

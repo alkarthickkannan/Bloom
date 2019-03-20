@@ -1,0 +1,244 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "edms-project-homepage-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsProjectHomepage/EdmsProjectHomepageWebPart.js",
+          "manifest": "./src/webparts/edmsProjectHomepage/EdmsProjectHomepageWebPart.manifest.json"
+        }
+      ]
+    },
+    "banner-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bannerView/BannerViewWebPart.js",
+          "manifest": "./src/webparts/bannerView/BannerViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-project-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsProjectGallery/EdmsProjectGalleryWebPart.js",
+          "manifest": "./src/webparts/edmsProjectGallery/EdmsProjectGalleryWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-project-image-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsProjectImageDetails/EdmsProjectImageDetailsWebPart.js",
+          "manifest": "./src/webparts/edmsProjectImageDetails/EdmsProjectImageDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "add-item-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/addItem/AddItemWebPart.js",
+          "manifest": "./src/webparts/addItem/AddItemWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-project-video-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsProjectVideoGallery/EdmsProjectVideoGalleryWebPart.js",
+          "manifest": "./src/webparts/edmsProjectVideoGallery/EdmsProjectVideoGalleryWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-homepage-tiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsHomepageTiles/EdmsHomepageTilesWebPart.js",
+          "manifest": "./src/webparts/edmsHomepageTiles/EdmsHomepageTilesWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-department-tiles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsDepartmentTiles/EdmsDepartmentTilesWebPart.js",
+          "manifest": "./src/webparts/edmsDepartmentTiles/EdmsDepartmentTilesWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-media-gallery-home-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsMediaGalleryHome/EdmsMediaGalleryHomeWebPart.js",
+          "manifest": "./src/webparts/edmsMediaGalleryHome/EdmsMediaGalleryHomeWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-department-doc-upload-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsDepartmentDocUpload/EdmsDepartmentDocUploadWebPart.js",
+          "manifest": "./src/webparts/edmsDepartmentDocUpload/EdmsDepartmentDocUploadWebPart.manifest.json"
+        }
+      ]
+    },
+    "user-profile-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/userProfile/UserProfileWebPart.js",
+          "manifest": "./src/webparts/userProfile/UserProfileWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-project-video-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsProjectVideoDetails/EdmsProjectVideoDetailsWebPart.js",
+          "manifest": "./src/webparts/edmsProjectVideoDetails/EdmsProjectVideoDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-dept-announcement-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsDeptAnnouncement/EdmsDeptAnnouncementWebPart.js",
+          "manifest": "./src/webparts/edmsDeptAnnouncement/EdmsDeptAnnouncementWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-announce-edit-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsAnnounceEdit/EdmsAnnounceEditWebPart.js",
+          "manifest": "./src/webparts/edmsAnnounceEdit/EdmsAnnounceEditWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-tiles-new-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsTilesNew/EdmsTilesNewWebPart.js",
+          "manifest": "./src/webparts/edmsTilesNew/EdmsTilesNewWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-home-announcement-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsHomeAnnouncement/EdmsHomeAnnouncementWebPart.js",
+          "manifest": "./src/webparts/edmsHomeAnnouncement/EdmsHomeAnnouncementWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-project-announcement-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsProjectAnnouncement/EdmsProjectAnnouncementWebPart.js",
+          "manifest": "./src/webparts/edmsProjectAnnouncement/EdmsProjectAnnouncementWebPart.manifest.json"
+        }
+      ]
+    },
+    "department-quick-launch-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/departmentQuickLaunch/DepartmentQuickLaunchWebPart.js",
+          "manifest": "./src/webparts/departmentQuickLaunch/DepartmentQuickLaunchWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-department-media-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsDepartmentMediaGallery/EdmsDepartmentMediaGalleryWebPart.js",
+          "manifest": "./src/webparts/edmsDepartmentMediaGallery/EdmsDepartmentMediaGalleryWebPart.manifest.json"
+        }
+      ]
+    },
+    "quick-launch-edms-depart-home-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickLaunchEdmsDepartHome/QuickLaunchEdmsDepartHomeWebPart.js",
+          "manifest": "./src/webparts/quickLaunchEdmsDepartHome/QuickLaunchEdmsDepartHomeWebPart.manifest.json"
+        }
+      ]
+    },
+    "edms-projects-quick-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsProjectsQuickLinks/EdmsProjectsQuickLinksWebPart.js",
+          "manifest": "./src/webparts/edmsProjectsQuickLinks/EdmsProjectsQuickLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "project-quick-launch-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/projectQuickLaunch/ProjectQuickLaunchWebPart.js",
+          "manifest": "./src/webparts/projectQuickLaunch/ProjectQuickLaunchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-1.7.0.min.js",
+      "globalName": "jQuery"
+    },
+    "bootstrap": {
+      "path": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
+      "globalName": "bootstrap",
+      "globalDependencies": [
+        "jquery"
+      ]
+    },
+    "jplist": {
+      "path": "./jplist/1.2.0/jplist.js",
+      "globalName": "jplist"
+    },
+    "jplist-core": {
+      "path": "./src/ExternalRef/js/jplist-core.js",
+      "globalName": "jplist-core",
+      "globalDependencies": [
+        "jquery"
+      ]
+    },
+    "jplist-pagination": {
+      "path": "./src/ExternalRef/js/jplist-pagination.js",
+      "globalName": "jplist-pagination",
+      "globalDependencies": [
+        "jquery"
+      ]
+    },
+    "slick": {
+      "path": "./src/ExternalRef/js/slick.js",
+      "globalName": "slick",
+      "globalDependencies": [
+        "jquery"
+      ]
+    }
+  },
+  "localizedResources": {
+    "EdmsProjectHomepageWebPartStrings": "lib/webparts/edmsProjectHomepage/loc/{locale}.js",
+    "BannerViewWebPartStrings": "lib/webparts/bannerView/loc/{locale}.js",
+    "EdmsProjectGalleryWebPartStrings": "lib/webparts/edmsProjectGallery/loc/{locale}.js",
+    "EdmsProjectImageDetailsWebPartStrings": "lib/webparts/edmsProjectImageDetails/loc/{locale}.js",
+    "AddItemWebPartStrings": "lib/webparts/addItem/loc/{locale}.js",
+    "EdmsProjectVideoGalleryWebPartStrings": "lib/webparts/edmsProjectVideoGallery/loc/{locale}.js",
+    "EdmsHomepageTilesWebPartStrings": "lib/webparts/edmsHomepageTiles/loc/{locale}.js",
+    "EdmsDepartmentTilesWebPartStrings": "lib/webparts/edmsDepartmentTiles/loc/{locale}.js",
+    "EdmsMediaGalleryHomeWebPartStrings": "lib/webparts/edmsMediaGalleryHome/loc/{locale}.js",
+    "EdmsDepartmentDocUploadWebPartStrings": "lib/webparts/edmsDepartmentDocUpload/loc/{locale}.js",
+    "UserProfileWebPartStrings": "lib/webparts/userProfile/loc/{locale}.js",
+    "EdmsProjectVideoDetailsWebPartStrings": "lib/webparts/edmsProjectVideoDetails/loc/{locale}.js",
+    "EdmsDeptAnnouncementWebPartStrings": "lib/webparts/edmsDeptAnnouncement/loc/{locale}.js",
+    "EdmsAnnounceEditWebPartStrings": "lib/webparts/edmsAnnounceEdit/loc/{locale}.js",
+    "EdmsTilesNewWebPartStrings": "lib/webparts/edmsTilesNew/loc/{locale}.js",
+    "EdmsHomeAnnouncementWebPartStrings": "lib/webparts/edmsHomeAnnouncement/loc/{locale}.js",
+    "EdmsProjectAnnouncementWebPartStrings": "lib/webparts/edmsProjectAnnouncement/loc/{locale}.js",
+    "DepartmentQuickLaunchWebPartStrings": "lib/webparts/departmentQuickLaunch/loc/{locale}.js",
+    "EdmsDepartmentMediaGalleryWebPartStrings": "lib/webparts/edmsDepartmentMediaGallery/loc/{locale}.js",
+    "QuickLaunchEdmsDepartHomeWebPartStrings": "lib/webparts/quickLaunchEdmsDepartHome/loc/{locale}.js",
+    "EdmsProjectsQuickLinksWebPartStrings": "lib/webparts/edmsProjectsQuickLinks/loc/{locale}.js",
+    "ProjectQuickLaunchWebPartStrings": "lib/webparts/projectQuickLaunch/loc/{locale}.js"
+  }
+}

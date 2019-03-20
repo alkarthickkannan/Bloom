@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "edms-project-home-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/edmsProjectHome/EdmsProjectHomeWebPart.js",
+          "manifest": "./src/webparts/edmsProjectHome/EdmsProjectHomeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EdmsProjectHomeWebPartStrings": "lib/webparts/edmsProjectHome/loc/{locale}.js"
+  }
+}
