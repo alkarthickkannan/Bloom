@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "3ca92102-a9d8-416d-87e5-e61409c90814",
+  "alias": "CorporateDiscountWebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  
+  
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "CorporateDiscount" },
+    "description": { "default": "CorporateDiscount description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "CorporateDiscount"
+    }
+  }]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bloom-inner-pages-client-side-solution",
+    "id": "db12e9e7-0b44-4a14-949e-ba3daf7d0571",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/bloom-inner-pages.sppkg"
+  }
+}

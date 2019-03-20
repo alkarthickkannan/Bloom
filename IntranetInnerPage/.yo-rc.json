@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.5.1",
+    "libraryName": "bloom-inner-pages",
+    "libraryId": "db12e9e7-0b44-4a14-949e-ba3daf7d0571",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
